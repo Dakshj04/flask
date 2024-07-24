@@ -8,6 +8,7 @@ def home_page():
     return render_template('index.html')
 
 
+
 @app.route('/math',methods=['POST'])
 def math_ops():
     if(request.method == 'POST'):
